@@ -8,14 +8,15 @@ import classes from './Board.module.css';
 class Board extends Component {
     state = {
         posts: [
-            {postID: 1, usrName:"Mikkel", msg: "Oh wow! So many messages!", hasIMG: false, imgURL: null},
-            {postID: 2, usrName:"Egil", msg: "This is another message", hasIMG: true, imgURL: kitten},
-            {postID: 3, usrName:"Henrik", msg: "Here is a message as well, you know!", hasIMG: false, imgURL: null}
+            {postID: 1, usrID: 2, usrName:"Mikkel", msg: "Oh wow! So many messages!", hasIMG: false, imgURL: null},
+            {postID: 2, usrID: 1, usrName:"Egil", msg: "This is another message", hasIMG: true, imgURL: kitten},
+            {postID: 3, usrID: 3, usrName:"Henrik", msg: "Here is a message as well, you know!", hasIMG: false, imgURL: null}
 
         ],
         newPostPopup: false,
         newPost: {postID: 0, usrName: "", msg: "", hasIMG: false, imgURL: null},
-        lastPostID: 3
+        lastPostID: 3,
+        currentUserID: this.props.currentUser
     }
 
     deletePost = (postIndex) => {
@@ -56,6 +57,7 @@ class Board extends Component {
         console.log(this.state.newPost);
         console.log(this.state.posts);
         this.setState({lastPostID: nPost.postID});
+        this.setState({newPost: {postID: 0, usrName: "", msg: "", hasIMG: false, imgURL: null}});
         event.preventDefault();
     }
 
@@ -72,8 +74,8 @@ class Board extends Component {
                         image={post.imgURL}
                         key={post.postID} />);
                 })}
-                <div  onClick={this.newPostToggle}>
-                    <button>New Post!</button>
+                <div className={classes.NewPostBtn} onClick={this.newPostToggle}>
+                    Add Post
                 </div>
                     {this.state.newPostPopup ? <NewPost submit={this.postSubmitHandler} change={this.postInputHandler} toggle={this.newPostToggle} /> : null}
                 </div>
