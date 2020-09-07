@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ibm-cic_virtual_whiteboard/static/css/main.4211fe40.chunk.css",
+    "main.js": "/ibm-cic_virtual_whiteboard/static/js/main.38c539b2.chunk.js",
+    "main.js.map": "/ibm-cic_virtual_whiteboard/static/js/main.38c539b2.chunk.js.map",
+    "runtime-main.js": "/ibm-cic_virtual_whiteboard/static/js/runtime-main.0360ec71.js",
+    "runtime-main.js.map": "/ibm-cic_virtual_whiteboard/static/js/runtime-main.0360ec71.js.map",
+    "static/js/2.cdf4ac0b.chunk.js": "/ibm-cic_virtual_whiteboard/static/js/2.cdf4ac0b.chunk.js",
+    "static/js/2.cdf4ac0b.chunk.js.map": "/ibm-cic_virtual_whiteboard/static/js/2.cdf4ac0b.chunk.js.map",
+    "index.html": "/ibm-cic_virtual_whiteboard/index.html",
+    "precache-manifest.7dd2b3bc03283e9cb180b3ff48e980fb.js": "/ibm-cic_virtual_whiteboard/precache-manifest.7dd2b3bc03283e9cb180b3ff48e980fb.js",
+    "service-worker.js": "/ibm-cic_virtual_whiteboard/service-worker.js",
+    "static/css/main.4211fe40.chunk.css.map": "/ibm-cic_virtual_whiteboard/static/css/main.4211fe40.chunk.css.map",
+    "static/js/2.cdf4ac0b.chunk.js.LICENSE.txt": "/ibm-cic_virtual_whiteboard/static/js/2.cdf4ac0b.chunk.js.LICENSE.txt",
+    "static/media/cute-kitten.jpg": "/ibm-cic_virtual_whiteboard/static/media/cute-kitten.658bc24a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0360ec71.js",
+    "static/js/2.cdf4ac0b.chunk.js",
+    "static/css/main.4211fe40.chunk.css",
+    "static/js/main.38c539b2.chunk.js"
+  ]
+}
