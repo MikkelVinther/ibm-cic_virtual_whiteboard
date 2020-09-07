@@ -13,3 +13,13 @@
     position: relative;
     min-height: 10em;
   }
+
+  .close {
+    color: Black;
+    float: right;
+  }
+  
+  .close:hover {
+    color: red;
+    cursor: pointer;
+  }
