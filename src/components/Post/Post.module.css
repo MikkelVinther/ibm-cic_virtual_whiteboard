@@ -14,9 +14,60 @@
     min-height: 10em;
   }
 
+  .IMGPost {
+    width: 16%;
+    height: 24%;
+    min-width: 13em;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: rgb(41, 41, 41);
+    margin: 1em auto;
+    padding: 2em;
+    background: rgb(255, 253, 247);
+    position: relative;
+    min-height: 10em;
+  }
+
+  .IMG {
+      position: absolute;
+      top: 7%;
+      right: 7.5%;
+      width: 85%;
+      height: 65%;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(41, 41, 41);
+  }
+
+  .IMGText {
+    position: absolute;
+    top: 70%;
+
+  }
+  .IMGName {
+    position: absolute;
+    top: 80%;
+
+  }
+
+  .RegText {
+    position: absolute;
+    top: 50%;
+
+  }
+  .RegName {
+    position: absolute;
+    top: 60%;
+
+  }
+
+
   .close {
     color: Black;
-    float: right;
+    position: absolute;
+    top: 1%;
+    right: 94%;
   }
   
   .close:hover {

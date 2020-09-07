@@ -15,11 +15,15 @@ class NewPost extends Component {
     return (
      <div className={classes.modal}>
        <div className={classes.modal_content}>
-       <span className={classes.close} onClick={this.handleClick}>&times;    </span>
+       <span className={classes.close} onClick={this.handleClick}> X </span>
        <form onSubmit={this.props.submit}>
        <p> Let's make a new post! </p>
+       <label>Message:</label>
        <input name="message" onChange={this.props.change}></input>
-       <input name="name" onChange={this.props.change}></input>
+       <label>Name:</label>
+       <input name="name" onChange={this.props.change} ></input>
+       <label>Image:</label>
+       <input type="file" name="img" onChange={this.props.change}></input>
        <input type="submit" value="Submit" />
        </form>
       </div>

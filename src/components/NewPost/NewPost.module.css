@@ -21,7 +21,9 @@
   
   .close {
     color: Black;
-    float: right;
+    position: absolute;
+    top: 2%;
+    right: 98%;
   }
   
   .close:hover {
